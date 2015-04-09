@@ -1580,6 +1580,13 @@
 
 /* Section/Article */
 
+
+.label3
+{
+	margin-top:40px;
+	display:block;
+}
+
 	section.special, article.special {
 		text-align: center;
 	}
@@ -3336,6 +3343,46 @@
 		position: relative;
 		text-align: center;
 	}
+		
+		#banner h3 {
+			-moz-transform: scale(1);
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			transform: scale(1);
+			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+			transition: transform 0.5s ease, opacity 0.5s ease;
+			font-size: 4em;
+			opacity: 1;
+			margin-bottom: -30px;
+			margin-left: 35px;
+			position: relative;
+			font-weight: 400;
+			z-index: 1;
+			font-family: "Times";
+		}
+
+		#banner h4 {
+			-moz-transform: scale(1);
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			transform: scale(1);
+			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+			transition: transform 0.5s ease, opacity 0.5s ease;
+			display: inline-block;
+			font-size: 1.2em;
+			opacity: 1;
+			position: relative;
+			z-index: 1;
+			font-weight: 300;
+			font-family: "Times New Roman";
+			letter-spacing: 0.01em;
+			margin-bottom: -30px;
+		}
+
 		#banner h1 {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
