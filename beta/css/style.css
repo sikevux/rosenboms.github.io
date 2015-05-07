@@ -3445,7 +3445,7 @@
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 3.2em;
+			font-size: 3.68em;
 			opacity: 1;
 			position: relative;
 			z-index: 1;
@@ -3454,7 +3454,6 @@
 			letter-spacing: 0.01em;
 			margin-bottom: -30px;
 		}
-
 
 			#banner h2:before {
 				top: 0;
@@ -3553,8 +3552,13 @@
 				min-height: 0;
 			}
 
+			#banner h1 {
+				font-size: 6em;
+				margin-bottom:-10px;
+			}
 			#banner h2 {
 				font-size: 1.25em;
+				margin-bottom:10px;
 			}
 
 			#banner br {
