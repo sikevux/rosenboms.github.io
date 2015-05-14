@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@import url(fonts/font-awesome.min.css);
+#container
+{
+	color:#fff;
+	width:80%;
+	left:10%;
+	bottom:30px;
+	position:absolute;
+}
+#logo
+{
+	color:#fff;
+	font-family:times; 
+	font-weight:300; 
+	font-size:70pt;
+	margin-bottom:3px;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+.numbox
+{
+	float:left;
+	width: 25%;
+	text-align:center;
+}
+.numcircle
+{
+	background-color:rgba(0, 0, 0, 0.3);
+	border-radius: 100%;
+	margin-right:40px;
+	margin-left:40px;
+}
+.numcircle p
+{
+	font-size:8pt;
+	position: relative;
+	bottom:30px;
+}
+.numcircle h1
+{
+	font-family:times; 
+	font-weight:300; 
+	font-size:70pt;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	position: relative;
+	top:40px;
+	bottom:0px;
+}
+
+#banner {
+	text-align: center;
+	color:#fff;
+}
+#banner h1 {
+	font-size: 7em;
+	opacity: 1;
+	margin-bottom: -60px;
+	font-weight: 400;
+	z-index: 9;
+	font-family: "Times";
+}
+
+#banner h2 {
+	display: inline-block;
+	font-size: 2.68em;
+	opacity: 1;
+	position: relative;
+	z-index: 9;
+	font-weight: 300;
+	font-family: "Times New Roman";
+	letter-spacing: 0.01em;
+	margin-bottom: -30px;
+}
+#banner h2:before {
+	top: 0;
+	left: 0;
+}
+
+#banner h2:after {
+	bottom: 0;
+	right: 0;
+}
+
+#banner p {
+	letter-spacing: 0.225em;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+
+#links
+{
+	position:relative;
+	left:50%;
+	margin-left:-92px;
+	width:185px;
+}
+
+.icons {
+	font-size: 1.25em;
+}
+
+.icons a {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.icons a:hover {
+	color: #fff;
+}
+
+ul.icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.icons li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+}
+
+ul.icons li:last-child {
+	padding-right: 0 !important;
+}
+
+ul.icons.major {
+	padding: 1em 0;
+}
+
+ul.icons.major li {
+	padding-right: 3.5em;
+}
+
+	@media screen and (max-width: 736px) {
+		ul.icons.major li {
+			padding: 0 1em !important;
+		}
+	}
+
+.icon {
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
+}
+
+.icon:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+.icon > .label {
+	display: none;
+}
+

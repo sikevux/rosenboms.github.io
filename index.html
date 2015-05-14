@@ -1,9 +1,64 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Under utveckling</title>
+		<title>Rosenboms Nation</title>
 		<meta charset="utf-8" />
-		<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+		<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW" />
+		<link rel="stylesheet" href="fonts/font-awesome.min.css" />
+		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body style="background-color:#ccc;color:#333;text-align:center;"> <h1 style="font-family: times; font-weight:300; font-size:70pt;">KOMMER SNART</h1></body>
+	<body style="background-image:url(unsplash-big.jpg);padding:0;margin:0;background-position:center top;"> 
+		<div id="banner">
+			<h1>R</h1>
+			<h2>ROSENBOMS NATION</h2>
+			<p>Carlscronas första nation</p>
+		</div>
+		<div id="links">
+			<ul class="icons">
+				<li><a target="_blank" href="https://twitter.com/Rosenboms" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a target="_blank" href="https://www.facebook.com/rosenboms" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a target="_blank" href="https://instagram.com/rosenboms" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a target="_blank" href="https://www.youtube.com/channel/UCZKb_Yr6hDqIbjSdDMZ4IAA" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+				<li><a href="#" class="icon fa-envelope-o" onclick="javascript:alert('info snabel-a rosenboms punkt se');"><span class="label">Email</span></a></li>
+			</ul>
+		</div>
+		<div id="container">
+			<div class="numbox">
+				<div class="numcircle">
+					<h1 id="days">&nbsp;</h1>
+					<p>DAYS</p>
+				</div>
+			</div>
+			<div class="numbox">
+				<div class="numcircle">
+					<h1 id="hours">&nbsp;</h1>
+					<p>HOURS</p>
+				</div>
+			</div>
+			<div class="numbox">
+				<div class="numcircle">
+					<h1 id="minutes">&nbsp;</h1>
+					<p>MINUTES</p>
+				</div>
+			</div>
+			<div class="numbox">
+				<div class="numcircle">
+					<h1 id="secs">&nbsp;</h1>
+					<p>SECONDS</p>
+				</div>
+			</div>
+		</div>
+		<script>
+			function updateTimer()
+			{
+				var targetDate = new Date("Sep 27, 2015 19:00:00");
+				var remainingSeconds = ~ ~((targetDate - new Date()) / 1000);
+				document.getElementById("secs").innerHTML = Math.floor(remainingSeconds % 60) + "";
+				document.getElementById("minutes").innerHTML = Math.floor((remainingSeconds % (60 * 60)) / 60) + "";
+				document.getElementById("hours").innerHTML = Math.floor((remainingSeconds % (60 * 60 * 24)) / (60 * 60)) + "";
+				document.getElementById("days").innerHTML = Math.floor(remainingSeconds / (60 * 60 * 24)) + "";
+			}
+			setInterval(updateTimer, 1000);
+		</script>
+	</body>
 </html>
