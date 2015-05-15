@@ -8,15 +8,6 @@
 	bottom:30px;
 	position:absolute;
 }
-#logo
-{
-	color:#fff;
-	font-family:times; 
-	font-weight:300; 
-	font-size:70pt;
-	margin-bottom:3px;
-	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
-}
 .numbox
 {
 	float:left;
@@ -36,6 +27,7 @@
 	position: relative;
 	bottom:30px;
 }
+
 .numcircle h1
 {
 	font-family:times; 
@@ -46,6 +38,31 @@
 	top:40px;
 	bottom:0px;
 }
+
+	@media screen and (max-width: 736px) {
+		.numcircle
+		{
+			margin-right:1px;
+			margin-left:1px;
+		}
+		.numcircle p
+		{
+			font-size:8pt;
+			position: relative;
+			bottom:0px;
+		}
+
+		.numcircle h1
+		{
+			font-family:times; 
+			font-weight:300; 
+			font-size:30pt;
+			text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+			position: relative;
+			top:30px;
+			bottom:0px;
+		}
+	}
 
 #banner {
 	text-align: center;
@@ -86,6 +103,36 @@
 	text-transform: uppercase;
 	margin-bottom: 60px;
 }
+
+	@media screen and (max-width: 736px) {
+		#banner h1 {
+			font-size: 4.5em;
+			opacity: 1;
+			margin-bottom: -40px;
+			font-weight: 400;
+			z-index: 9;
+			font-family: "Times";
+		}
+
+		#banner h2 {
+			display: inline-block;
+			font-size: 1.68em;
+			opacity: 1;
+			position: relative;
+			z-index: 9;
+			font-weight: 300;
+			font-family: "Times New Roman";
+			letter-spacing: 0.01em;
+			margin-bottom: -10px;
+		}
+		#banner p {
+			font-size:0.8em;
+			letter-spacing: 0.225em;
+			text-transform: uppercase;
+			margin-bottom: 60px;
+		}
+	}
+
 
 #links
 {
