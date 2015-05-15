@@ -158,10 +158,20 @@
 #links
 {
 	position:relative;
-	left:50%;
-	margin-left:-92px;
-	width:185px;
+	left:0;
+	width:100%;
+	text-align: center;
 }
+	@media screen and (max-width: 736px) {
+		#links
+		{
+			position:relative;
+			left:0;
+			top:-30px;
+			width:100%;
+			text-align: center;
+		}
+	}
 
 .icons {
 	font-size: 1.25em;
