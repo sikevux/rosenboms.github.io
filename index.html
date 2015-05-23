@@ -54,7 +54,7 @@
 		<script>
 			function updateTimer()
 			{
-				var targetDate = new Date("Sep 1, 2015 00:00:00");
+				var targetDate = new Date("Aug 15, 2015 00:00:00");
 				var remainingSeconds = ~ ~((targetDate - new Date()) / 1000);
 				document.getElementById("secs").innerHTML = Math.floor(remainingSeconds % 60) + "";
 				document.getElementById("minutes").innerHTML = Math.floor((remainingSeconds % (60 * 60)) / 60) + "";
