@@ -3652,7 +3652,7 @@
 			content: '';
 			background: #3c3c3c;
 			background-image: url(../images/loading.gif);
-  			background-position: 5% 100px;
+  			background-position: center 90%;
 			background-repeat: no-repeat;
 			display: block;
 			width: 100%;
