@@ -3709,6 +3709,24 @@
 		opacity: 1;
 	}
 
+	#loading{
+		position: absolute;
+		top: 90px;
+		left: 50%;
+		margin-left: -26px;
+		width:54px !important;
+		height:55px !important;
+		z-index: 400;
+		background-image: url(../images/loading.gif);
+	}
+	body.is-loading #loading{opacity:1;}
+
+
+	body.landing #loading{opacity:0;}
+	body.is-mobile.landing #loading{opacity:0;}
+
+
+
 /* CTA */
 
 	#cta .inner {
@@ -3947,10 +3965,6 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-
-
-
-
 
 .numcircle {}
 .numcircle p
