@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+
+.cat
+{
+	display: inline;
+	float:left;
+	font-size:7pt;
+}
+
+.overimgbox
+{
+	width:80%;
+	padding:10px;
+	color:#fff;
+	background-color: rgba(200,00,00,0.8);
+	font-size:9pt;
+	position: relative;
+	top:-300px;
+	text-align: right;
+}
+
+.price
+{
+	display: inline;
+	font-size:7pt;
+	float:right;
+	color:#cc0000;
+}
